@@ -1,0 +1,312 @@
+body{
+    background-color:azure;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/****************** FIRST PAGE*/
+
+.home{
+    background-image:url(img.jpg);
+ background-size:100%;
+ border-radius: 50px 50px 0px 0px;
+ width: 1530px;
+ height:800px;
+ text-decoration: none;
+}
+ul{
+    background-color: rgba(187, 79, 13, 0.878);
+    border-radius: 30px ;
+    list-style-type: none;
+    color:black;
+    font-size: 15px;
+    overflow: hidden;
+    float:right;
+    margin:-75px 55px 0px 0px;
+   
+}
+li{
+    float:left;
+    padding:15px;
+
+}
+li:hover{
+    color: rgb(125, 137, 138);
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 75px;
+
+}
+h5{
+    font-size: 20px;
+    padding:30px;
+    margin-left:35px;
+    
+}
+.head{
+    float: right;
+    
+}
+.org{
+    margin:180px 0px 0px 200px;
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 50px;
+}
+.iam{
+    font-size: 35px;
+    color: rgb(175, 103, 51);
+}
+i{
+   
+    padding:10px;
+}
+.btn{
+    color: white;
+    padding:5px;
+    background-color: rgb(175, 125, 78);
+    border:2px solid  rgb(175, 125, 78) ;
+    border-radius: 30px;
+    width:150px;
+    font-size: 20px;
+    
+}
+.btn:hover{
+    background-color: rgb(75, 52, 31);
+}
+
+ .me{
+    margin-left: -190px;
+    margin-top: 25px;
+    margin-top: -173px;
+   
+ }
+
+img{
+    width:570px;
+    height:670px;
+}
+
+
+
+/****************** SECOND PAGE*/
+.aboutme{
+    background-image:url(img4.jpeg);
+    background-size:100%;
+    width: 1450px;
+    height:600px;
+    padding:100px 0px 0px 80px;
+
+}
+.about{
+    color:rgb(146, 88, 46) ;
+    text-decoration: underline rgb(175, 103, 51);
+    padding:20px;
+    font-size: 80px;
+    margin:0px;
+}
+.hel{
+    padding:20px;
+    text-align: left;
+    font-size: 25px;
+    font-family:monospace;
+}
+.line1{
+    background-color: rgba(97, 63, 18, 0.658);
+    width:6px;
+    border-radius: 10px;
+    height:550px;
+   
+    
+}
+.one{
+    float:left;
+}
+
+/****************** THIRD PAGE*/
+
+.education{
+    background-image: url(img2.webp);
+    background-size:100%;
+    width: 1530px;
+    height:800px;
+}
+.edu{
+    color:rgb(146, 88, 46) ;
+    font-size: 80px;
+    text-align: left;
+    margin: 0px;
+    padding-top:370px;
+    padding-left: 100px;
+    text-decoration: underline rgb(146, 88, 46);
+}
+
+.same{
+    float:left;
+    margin:20px;
+    margin: 0px;
+    
+
+}
+.detail{
+    padding-top:200px;
+    padding-left: 150px;
+    
+    
+}
+.two{
+    font-size: 23px;
+    font-family: monospace;
+    padding:7px;
+}
+
+/****************** FOURTH PAGE*/
+
+.skills{
+    background-image:url(img5.jpg);
+    background-size:100%;
+    width: 1520px;
+    height:800px;
+   
+}
+.ski{
+    color:rgb(146, 88, 46) ;
+    font-size: 80px;
+    text-decoration: underline rgb(146, 88, 46);
+    text-align: center;
+    padding-top: 50px;
+    margin:0px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    padding:30px;
+   
+
+}
+.css{
+    padding-left: 110px;
+    padding-top: 150px;
+    width:150px;
+
+}
+.html{
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.java{
+    width:200px;
+    height:110px;
+    padding:30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+.git{
+    width:160px;
+    height:110px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.vs{
+    width:150px;
+    height:110px;
+    padding-left: 70px;
+}
+.figma{
+    width:130px;
+    height: 130px;
+    padding-top: 140px;
+    padding-left: 60px;
+    padding-bottom: 7px;
+}
+
+/* ***************** FIFTH PAGE**************** */
+.main{
+    background-image:url(img6.avif);
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 0px 0px 50px 50px;
+    width: 1480px;
+    height:700px;
+    padding:20px;
+}
+.contactus{
+    
+    background-size:100%;
+    width: 1327px;
+    height:800px;
+    width:800px;
+    height:400px;
+    margin:100px 150px;
+    background-color: rgba(216, 202, 182, 0.486) ;
+    border-radius: 25px 25px;
+    box-shadow:1px 1px 10px 1px;
+}
+
+input,textarea{
+    font-family: 'Courier New', Courier, monospace;
+    border:none;
+    border-radius: 8px;
+    background-color:white;
+    color: rgb(31, 29, 29);
+    padding:9px;
+    width:300px;
+}
+.btnn{
+    background-color: rgb(32, 209, 32);
+    border:none;
+    padding:10px;
+    width:320px;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    border-radius: 8px;
+}
+.com{
+  
+    float:left;
+    
+}
+
+.first{
+    width:400px;
+    height: 400px;
+    border-radius: 15px;
+    
+}
+.image{
+    width:400px;
+    height: 400px;
+    border-radius: 25px 0px 0px 25px;
+}
+.second{
+    width:300px;
+    height:350px;
+    padding:30px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline black;
+}
+.btnn:hover{
+    background-color:rgb(48, 148, 98);
+}
+textarea:hover{
+    background-color: rgb(184, 182, 182);
+}
+input:hover{
+    background-color:rgb(206, 199, 199) ;
+}
+.con{
+    color: rgb(99, 96, 96);
+    text-align: center;
+    font-size: 20px;
+    padding-top: -300px;
+}
+.bh{
+    word-spacing: 25px;
+}
